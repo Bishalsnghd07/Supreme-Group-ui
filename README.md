@@ -10,13 +10,15 @@ A pixel-perfect and responsive frontend implementation of the Supreme Group inte
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/supreme-group-ui.git
+
 cd supreme-group-ui
+
 npm install
+
 npm run dev
 
-🧩 #Component Architecture Overview
+## 🧩 Component Architecture Overview
 
 components/
 
@@ -36,7 +38,7 @@ styles/
 
 globals.css – Tailwind base and custom styles
 
-📱 Responsive Design Strategy
+## 📱 Responsive Design Strategy
 Mobile-first approach using Tailwind's responsive utility classes.
 
 Breakpoints used: sm, md, lg, xl, 2xl.
@@ -45,7 +47,7 @@ Flexbox and Grid layouts adapt content across screen sizes.
 
 Touch-friendly buttons, adaptive typography, and collapsing menus for mobile.
 
-⚡ Performance Optimization Techniques
+## ⚡ Performance Optimization Techniques
 Optimized image formats (WebP where applicable).
 
 Lazy loading for images and non-critical components.
@@ -54,7 +56,9 @@ Minimal third-party dependencies to keep bundle size small.
 
 Used Tailwind JIT compiler for faster builds and reduced CSS size.
 
-♿ Accessibility Considerations
+Excellent result getting in Lighthouse Testing.
+
+## ♿ Accessibility Considerations
 Semantic HTML: header, nav, main, footer, etc.
 
 aria-labels added for enhanced screen reader support.
@@ -65,7 +69,7 @@ Focus states enabled for all interactive elements.
 
 Keyboard navigability ensured for dropdowns and links.
 
-📦 Third-party Libraries Used
+## 📦 Third-party Libraries Used
 Tailwind CSS – Utility-first CSS framework for rapid UI development.
 
 React Icons – For consistent use of scalable vector icons.
@@ -76,7 +80,7 @@ clsx – Conditional className utility (if used).
 
 Heroicons – Modern outline and solid icons by Tailwind Labs.
 
-🔍 Assumptions and Implementation Decisions
+## 🔍 Assumptions and Implementation Decisions
 The behavior of certain animations and interactivity inferred from the live site.
 
 Minor responsiveness adjustments made for better UX on extremely small screens.
@@ -85,14 +89,14 @@ Figma design interpreted exactly; spacing and font sizes matched using Inspect m
 
 Placeholder images used where real assets were missing.
 
-😣 Challenges Faced
+## 😣 Challenges Faced
 Aligning exact font sizes and spacing from Figma due to slight rendering differences.
 
 Ensuring cross-browser consistency in layout rendering.
 
 Implementing pixel-perfect responsiveness on edge devices (e.g., foldables, tablets).
 
-🧠 Suggested Features and Improvements
+## 🧠 Suggested Features and Improvements
 Add a content management system (CMS) like Sanity or Strapi.
 
 Integrate multilingual support (i18n) for wider audience reach.
@@ -103,7 +107,7 @@ Add SEO meta tags and structured data for better discoverability.
 
 Build a contact form with form validation and email integration.
 
-📚 Additional Remarks
+## 📚 Additional Remarks
 All development done using modern React with functional components and hooks.
 
 Styled exclusively with Tailwind CSS for maximum control and maintainability.
