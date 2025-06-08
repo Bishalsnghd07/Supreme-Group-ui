@@ -1,8 +1,6 @@
 "use client";
 import Contact from "@/components/ui/sections/contact";
 import Footer from "@/components/ui/sections/footer";
-import Header from "@/components/ui/sections/header";
-import Image from "next/image";
 
 export default function Home() {
   return (

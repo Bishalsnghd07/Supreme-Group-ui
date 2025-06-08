@@ -1,11 +1,8 @@
 "use client";
-import { useScrollHide } from "@/hooks/useScrollHide";
 import Image from "next/image";
 import { Socials } from "@/constants";
 
 export default function Header() {
-  const isVisible = useScrollHide();
-
   const handleSocialClick = (link: string) => {
     // Redirect to the specified link
     window.open(link);

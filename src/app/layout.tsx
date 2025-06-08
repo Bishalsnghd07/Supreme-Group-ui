@@ -26,15 +26,9 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          rel="stylesheet"
-          href="/lib/css/sweetalert2.min.css"
-          type="text/css"
-        />
-      </head>
+      <head></head>
       <body className={cn(manrope.variable)}>
-        <link rel="icon" href="favicon.png" sizes="any" />
+        <link rel="icon" href="Supreme_logos (3).svg" sizes="any" />
         <div className="flex w-full h-18 justify-between">
           <Header />
         </div>

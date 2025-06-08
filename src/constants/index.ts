@@ -1,17 +1,3 @@
-import {
-  RxGithubLogo,
-  RxLinkedinLogo,
-  RxHome,
-  RxPerson,
-  RxDashboard,
-  RxReader,
-  RxCrop,
-  RxPencil2,
-  RxAccessibility,
-  RxDesktop,
-  RxRocket,
-} from "react-icons/rx";
-
 export const Socials = [
   {
     name: "GithubLogo",
