@@ -2,7 +2,7 @@
 
 A pixel-perfect and responsive frontend implementation of the Supreme Group interface based on the provided Figma design and reference website: [https://supreme-group.vercel.app](https://supreme-group.vercel.app).
 
-**Deployed URL**: [https://your-deployed-url.com](https://supreme-group-p44skykbs-bishalsnghd07s-projects.vercel.app/) <!-- Replace with actual deployed URL -->
+**Deployed URL**: (https://supreme-group-p44skykbs-bishalsnghd07s-projects.vercel.app/) <!-- Replace with actual deployed URL -->
 
 ---
 
