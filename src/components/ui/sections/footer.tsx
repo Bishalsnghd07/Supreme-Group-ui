@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-b from-white to-blue-100 text-black py-8 px-6 sm:px-12">
       <h1 className="py-6 md:px-16">
         <Image
-          src="/icons/Supreme_logos (3).svg"
+          src="/icons/favicon.svg"
           alt="Logo"
           width={148}
           height={44}
