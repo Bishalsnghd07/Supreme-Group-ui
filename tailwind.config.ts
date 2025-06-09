@@ -84,8 +84,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        sans: ["var(--font-manrope)", "sans-serif"], // Default font stack
-        manrope: ["var(--font-manrope)"], // Explicit class
+        sans: ['"Manrope"', "sans-serif"],
       },
       scrollbar: {
         thin: {

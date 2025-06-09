@@ -12,7 +12,7 @@ export default function Header() {
     <>
       <h1 className="px-3 sm:px-20 md:px-26 lg:px-30 py-4">
         <Image
-          src="/icons/Supreme_logos (3).svg"
+          src="/icons/favicon.svg"
           alt="Logo"
           width={148}
           height={44}

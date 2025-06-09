@@ -28,8 +28,8 @@ export default async function RootLayout({
     <html lang="en">
       <head></head>
       <body className={cn(manrope.variable)}>
-        <link rel="icon" href="Supreme_logos (3).svg" sizes="any" />
-        <div className="flex w-full h-18 justify-between">
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+        <div className="flex w-full h-18 justify-between font-sans">
           <Header />
         </div>
         <main className="w-full font-sans">{children}</main>
